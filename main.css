@@ -1,0 +1,17 @@
+.contact-img-bg {
+  height: 568px;
+  width: 467px;
+  background-image: url("media/lets-connect.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact-title {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 0.25em;
+  position: relative;
+  left: 86px;
+  top: 90px;
+}
