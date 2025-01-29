@@ -403,6 +403,10 @@ p.aside {
   /* settings for typesetting */
   font-size: 1.125rem;
   line-height: 1.8;
+  max-width: 35rem;
+}
+
+.superpower-text p {
   max-width: 29.2rem;
 }
 
