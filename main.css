@@ -251,11 +251,16 @@ p.aside {
   grid-template-columns: 50% 50%;
 }
 
-.three-col .col {
+.perspectives .col {
   display: grid;
   grid-template-rows: 1.3em 1fr; /* first row is by CURRENT font size, not root (not rem) */
   gap: 1.5rem 0;
   width: 240px;
+}
+
+.samples .col {
+  grid-template-rows: 175px 1.3em 1fr;
+  gap: 1.5rem 0;
 }
 
 .grid-fill-col {
@@ -298,6 +303,10 @@ p.aside {
   background-color: var(--background-highlight-color);
 }
 
+.gray-bg {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+
 .section {
   padding: 0.5rem;
 }
@@ -306,7 +315,12 @@ p.aside {
   margin-top: 0;
 }
 
-.section.perspectives {
+.samples img {
+  height: 175px;
+  overflow: hidden;
+}
+
+.perspectives {
   text-align: center;
 }
 
@@ -322,6 +336,34 @@ p.aside {
 
 .section.superpower {
   padding: 4rem;
+}
+
+.section.nail-message {
+  padding: 2rem 4rem;
+}
+
+.nail-message .gray-bg {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.nail-message .wrapper {
+  margin: 0 auto;
+  max-width: 45rem;
+}
+
+.nail-message .wrapper p,
+.nail-message .wrapper ul,
+.nail-message .wrapper li {
+  margin: 0;
+  text-align: left;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.nail-message .button {
+  margin-top: 5rem;
 }
 
 .superpower .column-container.two-col {
@@ -378,11 +420,14 @@ p.aside {
 @media (max-width: 980px) {
   .column-container.three-col,
   .column-container.two-col {
-    gap: 2rem;
+    gap: 1rem;
   }
+}
 
-  .column-container.three-col {
-    grid-template-columns: repeat(3, calc((100vw - 6em)/3));
+@media (max-width: 768px) {
+  .column-container.three-col,
+  .column-container.two-col {
+    grid-template-columns: 1fr;
   }
 
   .three-col .col {
