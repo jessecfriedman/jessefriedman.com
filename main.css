@@ -258,9 +258,15 @@ p.aside {
   width: 240px;
 }
 
+.samples .column-container.three-col {
+  grid-template-columns: repeat(3, fit-content(300px));
+  gap: 0 2.5rem ;
+}
+
 .samples .col {
-  grid-template-rows: 175px 1.3em 1fr;
-  gap: 1.5rem 0;
+  display: grid;
+  grid-template-rows: 225px 2.25em 1fr;
+  gap: 1rem 0;
 }
 
 .grid-fill-col {
@@ -334,11 +340,6 @@ p.aside {
   margin-top: 0;
 }
 
-.samples img {
-  height: 175px;
-  overflow: hidden;
-}
-
 .perspectives {
   text-align: center;
 }
@@ -359,6 +360,10 @@ p.aside {
 
 .section.nail-message {
   padding: 2rem 4rem;
+}
+
+.section.samples {
+  padding: 2.5rem 4rem;
 }
 
 .nail-message .gray-bg {
@@ -383,6 +388,35 @@ p.aside {
 
 .nail-message .button {
   margin-top: 5rem;
+}
+
+.samples .title {
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.samples .subhead {
+  font-size: 1.375rem;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.samples .img-wrapper {
+  align-self: stretch; /* TODO: this line does nothing */
+}
+
+.samples img {
+  max-height: 225px;
+  overflow: hidden;
+}
+
+.samples p {
+  margin: 0;
+  margin-right: 1rem; /* helps align blurb text neatly, esp. re: FluentOMX */
+  line-height: 1.8;
 }
 
 .superpower .column-container.two-col {
