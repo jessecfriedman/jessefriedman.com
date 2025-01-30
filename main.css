@@ -24,6 +24,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: black;
+}
+
 b {
   font-weight: bold;
 }
@@ -419,6 +423,32 @@ p.aside {
   line-height: 1.8;
 }
 
+.skill-highlights .column-container {
+  max-width: 980px;
+  margin: 0 auto;
+  gap: 2.25em;
+  grid-template-columns: 45% 55%;
+}
+
+.skill-highlights .two-col .col:first-child {
+  justify-self: right;
+}
+
+.skill-highlights .two-col .col:last-child {
+  justify-self: left;
+}
+
+.skill-highlights p {
+  max-width: 389px;
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+
+.skill-highlights .two-col img {
+  max-height: 307px;
+  max-width: 278px;
+}
+
 .superpower .column-container.two-col {
   background-color: white;
   grid-template-columns: 1fr 305px;
@@ -487,6 +517,9 @@ p.aside {
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
   .column-container.three-col,
   .column-container.two-col {
     grid-template-columns: 1fr;
@@ -494,5 +527,17 @@ p.aside {
 
   .three-col .col {
     margin: 0 auto;
+  }
+
+  .skill-highlights .two-col .col:first-child {
+    justify-self: center;
+  }
+
+  .skill-highlights .two-col .col:last-child {
+    justify-self: left;
+  }
+
+  .skill-highlights p {
+    max-width: none;
   }
 }
