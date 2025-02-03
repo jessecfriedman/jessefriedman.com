@@ -256,8 +256,8 @@ p.aside {
   line-height: 1.8;
 }
 
-.section.superpower {
-  padding: 4rem;
+.section.prices {
+  padding: 0 3.75rem;
 }
 
 .section.nail-message {
@@ -266,6 +266,10 @@ p.aside {
 
 .section.samples {
   padding: 2.5rem 4rem;
+}
+
+.section.superpower {
+  padding: 4rem;
 }
 
 .section.contact {
@@ -301,6 +305,42 @@ p.aside {
 
 .nail-message .button {
   margin-top: 5rem;
+}
+
+.prices .column-container.two-col {
+  padding: 3.75rem 5rem;
+  grid-template-columns: 18rem 1fr;
+  gap: 2rem;
+}
+
+.prices .title {
+  text-align: left;
+}
+
+.prices .category-label {
+  font-size: 1.375rem;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.prices .headline {
+  font-size: 1.375rem;
+  letter-spacing: 4px;
+  margin: 0;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+
+.prices .subhead {
+  margin: 0.25rem 0;
+}
+
+.prices p {
+  line-height: 1.8;
+  margin: 1rem 0 3rem;
+  max-width: 40rem;
 }
 
 .samples .title {
