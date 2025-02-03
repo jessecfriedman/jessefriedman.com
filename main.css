@@ -238,6 +238,11 @@ p.aside {
   font-style: italic;
 }
 
+.featured {
+  /* clamp math: min when <= 768px width; max when >= 1140px */
+  font-size: clamp(1rem, -3.129rem + 8.602vw, 3rem);
+}
+
 .column-container {
   display: grid;
   justify-content: center;
@@ -368,6 +373,17 @@ p.aside {
 
 .section.samples {
   padding: 2.5rem 4rem;
+}
+
+.section.contact {
+  padding: 0;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .nail-message .gray-bg {
