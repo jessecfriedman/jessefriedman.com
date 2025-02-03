@@ -38,9 +38,9 @@ i {
 
 /* FONT CLASSES */
 /* TODO: clean up unused font styles after completing revision */
-.lato-thin {
-  font-family: "Lato", serif;
-  font-weight: 100;
+.enriqueta-regular {
+  font-family: "Enriqueta", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -62,18 +62,6 @@ i {
   font-style: normal;
 }
 
-.lato-black {
-  font-family: "Lato", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.lato-thin-italic {
-  font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
 .lato-light-italic {
   font-family: "Lato", serif;
   font-weight: 300;
@@ -92,88 +80,10 @@ i {
   font-style: italic;
 }
 
-.lato-black-italic {
-  font-family: "Lato", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.prompt-thin {
-  font-family: "Prompt", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.prompt-extralight {
-  font-family: "Prompt", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.prompt-light {
-  font-family: "Prompt", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.prompt-regular {
-  font-family: "Prompt", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .prompt-medium {
   font-family: "Prompt", serif;
   font-weight: 500;
   font-style: normal;
-}
-
-.prompt-semibold {
-  font-family: "Prompt", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.prompt-bold {
-  font-family: "Prompt", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.prompt-extrabold {
-  font-family: "Prompt", serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.prompt-black {
-  font-family: "Prompt", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.prompt-thin-italic {
-  font-family: "Prompt", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.prompt-extralight-italic {
-  font-family: "Prompt", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.prompt-light-italic {
-  font-family: "Prompt", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.prompt-regular-italic {
-  font-family: "Prompt", serif;
-  font-weight: 400;
-  font-style: italic;
 }
 
 .prompt-medium-italic {
@@ -182,28 +92,11 @@ i {
   font-style: italic;
 }
 
-.prompt-semibold-italic {
-  font-family: "Prompt", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.prompt-bold-italic {
-  font-family: "Prompt", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.prompt-extrabold-italic {
-  font-family: "Prompt", serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.prompt-black-italic {
-  font-family: "Prompt", serif;
-  font-weight: 900;
-  font-style: italic;
+.bodoni-moda {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .bodoni-moda-italic {
