@@ -491,6 +491,27 @@ p.aside {
     margin: 0 auto;
   }
 
+  .contact {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 0;
+  }
+
+  .contact-img-bg {
+    height: 105vw;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  .contact .featured {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0.25em;
+    position: relative;
+    top: -20vw;
+    font-size: clamp(1.5rem, -0.129rem + 8.602vw, 3rem);
+  }
+
   .skill-highlights .two-col .col:first-child {
     justify-self: center;
   }
