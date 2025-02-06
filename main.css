@@ -484,7 +484,26 @@ p.aside {
 }
 
 @media (max-width: 768px) {
-  .section {
+  header {
+    margin: 2rem auto;
+    max-width: calc(100vw - 4rem);
+  }
+
+  .site-title {
+    font-size: clamp(1.75rem, 1.1433rem + 3.3473vw, 2.75rem);
+    letter-spacing: calc(1em * 0.4);
+  }
+
+  .button {
+    height: auto;
+    min-height: 2.5rem; /* 2.5rem == 40px */
+    max-width: calc(100vw - 4rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section,
+  .section.samples {
     padding: 1rem;
   }
 
@@ -520,7 +539,7 @@ p.aside {
     padding: 0.25em;
     position: relative;
     top: -20vw;
-    font-size: clamp(1.5rem, -0.129rem + 8.602vw, 3rem);
+    font-size: clamp(1.5rem, -0.129rem + 8.602vw, 2.5rem);
   }
 
   .nail-message .gray-bg,
