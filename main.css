@@ -132,6 +132,18 @@ p.aside {
   font-style: italic;
 }
 
+.button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 2.5rem; /* 2.5rem == 40px */
+  line-height: 2.5rem;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2.5rem;
+}
+
 .featured {
   /* clamp math: min when <= 768px width; max when >= 1140px */
   font-size: clamp(1rem, -3.129rem + 8.602vw, 3rem);
@@ -176,18 +188,6 @@ p.aside {
   display: grid;
   align-content: space-between;
   gap: 0.5rem;
-}
-
-.button {
-  display: inline-block;
-  background-color: black;
-  color: white;
-  height: 2.5rem; /* 2.5rem == 40px */
-  line-height: 2.5rem;
-  width: 300px;
-  text-align: center;
-  text-decoration: none;
-  margin: 2.5rem;
 }
 
 .contact-img-bg {
