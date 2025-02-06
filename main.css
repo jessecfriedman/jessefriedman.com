@@ -247,6 +247,11 @@ p.aside {
   text-align: center;
 }
 
+.perspectives .title {
+  white-space: nowrap;
+  font-size: clamp(1.625rem, 1.2458rem + 2.0921vw, 2.25rem);
+}
+
 .perspectives .roboto-flex-headline {
   font-size: 1.375rem;
   letter-spacing: 4px;
