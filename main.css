@@ -482,6 +482,12 @@ p.aside {
   .section {
     padding: 1rem;
   }
+
+  .section.nail-message,
+  .section.prices {
+    padding: 0;
+  }
+
   .column-container.three-col,
   .column-container.two-col {
     grid-template-columns: 1fr;
@@ -510,6 +516,15 @@ p.aside {
     position: relative;
     top: -20vw;
     font-size: clamp(1.5rem, -0.129rem + 8.602vw, 3rem);
+  }
+
+  .nail-message .gray-bg,
+  .prices .gray-bg {
+    padding: 2rem;
+  }
+  
+  .prices .gray-bg {
+    margin-bottom: 2rem;
   }
 
   .skill-highlights .two-col .col:first-child {
