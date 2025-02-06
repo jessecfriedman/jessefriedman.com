@@ -143,14 +143,14 @@ p.aside {
   gap: 5rem;
 }
 
-.column-container.three-col {
+.three-col {
   grid-template-columns: 15rem 15rem 15rem;
   grid-template-columns: repeat(3, 240px);
   grid-template-columns: repeat(auto-fit, minmax(240px, 240px));
   grid-template-columns: repeat(3, fit-content(240px));
 }
 
-.column-container.two-col {
+.two-col {
   grid-template-columns: 50% 50%;
 }
 
@@ -161,7 +161,7 @@ p.aside {
   width: 240px;
 }
 
-.samples .column-container.three-col {
+.samples .three-col {
   grid-template-columns: repeat(3, fit-content(300px));
   gap: 0 2.5rem ;
 }
@@ -308,7 +308,7 @@ p.aside {
   margin-top: 5rem;
 }
 
-.prices .column-container.two-col {
+.prices .two-col {
   padding: 3.75rem 5rem;
   grid-template-columns: 18rem 1fr;
   gap: 2rem;
@@ -411,7 +411,7 @@ p.aside {
   max-width: 278px;
 }
 
-.superpower .column-container.two-col {
+.superpower .two-col {
   background-color: white;
   grid-template-columns: 1fr 305px;
   gap: 1rem;
