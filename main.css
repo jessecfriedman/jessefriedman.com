@@ -489,6 +489,10 @@ p.aside {
     max-width: calc(100vw - 4rem);
   }
 
+  p.aside {
+    white-space: nowrap;
+  }
+
   .site-title {
     font-size: clamp(1.75rem, 1.1433rem + 3.3473vw, 2.75rem);
     letter-spacing: calc(1em * 0.4);
@@ -508,7 +512,8 @@ p.aside {
   }
 
   .section.nail-message,
-  .section.prices {
+  .section.prices,
+  .section.superpower {
     padding: 0;
   }
 
@@ -561,5 +566,31 @@ p.aside {
 
   .skill-highlights p {
     max-width: none;
+  }
+
+  .superpower {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .superpower-text {
+    padding: 0 1rem;
+  }
+
+  .superpower .two-col {
+    padding-left: 0;
+  }
+
+  .superpower p {
+    max-width: none;
+  }
+
+  .superpower img {
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+    object-position: center 20%;
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100vw - 2rem);
   }
 }
