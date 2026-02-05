@@ -171,6 +171,7 @@ p.aside {
   grid-template-rows: 1.3em 1fr; /* first row is by CURRENT font size, not root (not rem) */
   gap: 1.5rem 0;
   width: 240px;
+  text-align: left;
 }
 
 .samples .three-col {
