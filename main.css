@@ -253,12 +253,13 @@ p.aside {
 
 .perspectives .roboto-flex-headline {
   font-size: 1.375rem;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-transform: none;
 }
 
 .perspectives .grid-fill-col {
   line-height: 1.8;
+  text-align: left;
 }
 
 .section.prices {
