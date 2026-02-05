@@ -1,7 +1,7 @@
 :root {
   --brand-color: rgb(75, 209, 160);
   --background-highlight-color: rgb(186, 218, 85);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px; /* this is the root font size, aka 1rem */
   /* using rem units for fonts and spacing around the site emphasizes proportionality in code */
 }
@@ -249,15 +249,18 @@ p.aside {
 }
 
 .perspectives .title {
+  font-family: 'Libre Baskerville', serif;
   font-size: clamp(1.625rem, 1.2458rem + 2.0921vw, 2.25rem);
+  font-weight: 400;
 }
 
 .perspectives .roboto-flex-headline {
+  font-family: 'Inter', sans-serif;
   font-size: 1.375rem;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   text-transform: none;
 }
-
 .perspectives .grid-fill-col {
   line-height: 1.8;
   text-align: left;
