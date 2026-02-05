@@ -376,6 +376,10 @@ p.aside {
 }
 
 .prices .subhead {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
   margin: 0.25rem 0;
 }
 
@@ -478,6 +482,7 @@ p.aside {
 }
 
 .superpower-title {
+  font-family: 'Libre Baskerville', serif !important; /* ADD !important to force it */
   font-size: 1.625rem;
   line-height: 1.2;
 }
