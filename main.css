@@ -6,6 +6,36 @@
   /* using rem units for fonts and spacing around the site emphasizes proportionality in code */
 }
 
+/* Universal font overrides - add right after :root */
+
+/* All headings/titles use Libre Baskerville */
+.title,
+.work-samples .title,
+.samples .title,
+.section-head .title,
+.prices .title,
+.perspectives .title,
+.superpower-title,
+.site-title {
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* All body text uses Inter */
+body,
+.section,
+.grid-fill-col,
+.perspectives .grid-fill-col,
+.superpower-text,
+.nail-message .wrapper p,
+.nail-message .wrapper ul,
+.nail-message .wrapper li,
+.prices p,
+.samples p,
+p,
+div {
+  font-family: 'Inter', sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -462,6 +492,7 @@ p.aside {
 
 .site-title {
   color: var(--brand-color);
+  font-weight: 700; 
   font-size: 2.75rem;
   letter-spacing: 21px;
   margin-bottom: 0;
