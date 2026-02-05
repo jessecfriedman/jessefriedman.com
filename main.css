@@ -291,9 +291,11 @@ p.aside {
   letter-spacing: 0.5px;
   text-transform: none;
 }
-.perspectives .grid-fill-col {
-  line-height: 1.8;
-  text-align: left;
+.perspectives .grid-fill-col i {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .section.prices {
