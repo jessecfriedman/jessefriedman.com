@@ -15,7 +15,7 @@
 .section-head .title,
 .prices .title,
 .perspectives .title,
-.superpower-title,
+.superpower .title,
 .site-title {
   font-family: 'Libre Baskerville', serif;
 }
@@ -366,11 +366,13 @@ p.aside {
 }
 
 .prices .headline {
+  font-family: 'Inter', sans-serif; /* ADD */
+  font-weight: 600; /* ADD */
   font-size: 1.375rem;
-  letter-spacing: 4px;
+  letter-spacing: 0.5px; /* CHANGE from 4px */
   margin: 0;
   padding-top: 1.2rem;
-  text-transform: uppercase;
+  text-transform: none; /* CHANGE from uppercase */
 }
 
 .prices .subhead {
